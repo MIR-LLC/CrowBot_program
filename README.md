@@ -2,7 +2,7 @@
 
 [File of the program](https://github.com/Grovety/CrowBot_GRC_program/blob/main/Bolt_grc_program.ino)
 
-[How to flash the program](link)
+[How to flash the program](https://github.com/Grovety/CrowBot_GRC_program/edit/main/how_to_install_the_program.md)
 
 ## How it works
 

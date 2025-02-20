@@ -19,20 +19,21 @@ After the connection is established, the robot can process voice commands, which
 ## Commands
 | Voice Command     | Action |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Robot Wake Up   | The DevBoard wakes up. No action is performed by the robot. |
-| Robot Sleep     | The DevBoard goes into sleep mode and stops responding to voice commands. No action is performed by the robot. |
-| Start Control   | The DevBoard switches to tilt control mode. The robot enters tilt control mode and stops responding to voice movement commands. |
-| Stop Control    | Tilt control mode is disabled, returning to voice control mode. |
-| Go Right       | Turn right. |
-| Go Left        | Turn left. |
-| Go Forward     | Move forward and then stop. |
-| Go Back        | Move backward and then stop. |
-| Go Home        | No action. |
-| Slower Speed   | No action. |
-| Faster Speed   | No action. |
-| Lights On      | Turn on the LED backlight on the Ultrasonic Sensor (simulating headlights). |
-| Lights Off     | Turn off the LED backlight on the Ultrasonic Sensor (simulating headlights). |
-| Play Music     | The robot plays a preset melody. |
+| **ROBOT WAKE UP**   | The DevBoard wakes up. The robot performs no action. |  
+| **ROBOT SLEEP**     | The DevBoard goes into sleep mode and stops responding to voice commands. The robot performs no action. |  
+| **MANUAL CONTROL**  | The DevBoard switches to tilt control mode. The robot enters tilt control mode and stops responding to voice movement commands. |  
+| **VOICE CONTROL**   | Tilt control mode is disabled, returning to voice control mode. |  
+| **GO RIGHT**       | Turn right. |  
+| **GO LEFT**        | Turn left. |  
+| **GO FORWARD**     | Move forward and then stop. |  
+| **GO BACK**        | Move backward and then stop. |  
+| **GO HOME**        | No action. |  
+| **SLOWER SPEED**   | No action. |  
+| **FASTER SPEED**   | No action. |  
+| **LIGHTS ON**      | Turn on the LED backlight on the Ultrasonic Sensor (simulating headlights). |  
+| **LIGHTS OFF**     | Turn off the LED backlight on the Ultrasonic Sensor (simulating headlights). |  
+| **PLAY MUSIC**     | The robot plays a preset melody. |  
+
 
 ## Tilt mode
 

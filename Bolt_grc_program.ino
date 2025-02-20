@@ -258,12 +258,12 @@ void grc_cmd_task(void*arg)
         xSemaphoreGive(xPlayMusicSemaphore);
       }
 
-      if (value == "START CONTROL")  // enable imu_control_mode
+      if (value == "MANUAL CONTROL")  // enable imu_control_mode
       {
         init_imu_control_state();
       }
     } else {
-      if (value == "STOP CONTROL")  // disable imu_control_mode
+      if (value == "VOICE CONTROL")  // disable imu_control_mode
       {
         release_imu_control_state();
       }

@@ -16,5 +16,5 @@
 | **PLAY MUSIC**     | The robot plays a preset melody. |
 
 1. Turn on the CrowBot (Make sure it was [flashed](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md) before)
-2. Turn the Bluetooth on
+2. Turn the CrowBot's Bluetooth on
 3. Power up the DevBoard

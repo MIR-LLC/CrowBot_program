@@ -1,4 +1,4 @@
-# Example of Robot Control Implementation Using the CrowBot-BOLT Robot 
+# Robot Control Implementation Using the CrowBot-BOLT Robot 
 
 [Quick Start](https://grovety.com/CrowBot/)
 
@@ -18,7 +18,16 @@ Once you flash our program to the CrowBot  (see [how to do it](https://github.co
 
 After the connection is established, the robot can process voice commands, which are then converted into movement commands or other actions.
 
-## Commands
+You can use two modes to control CrowBot-BOLT:
+1. Recognizing voice commands from a predefined list. 
+2. Reading the board's tilt along the X and Y axes.
+
+![RCax](https://github.com/user-attachments/assets/df23ef1b-fbf7-4044-8efd-d63a35861690)
+
+## Voice Control
+The board "listens" to user commands through its built-in microphones and recognizes them using a neural network. The recognized command is transmitted to CrowBOT.
+
+### Commands
 | Voice Command     | Action |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | **ROBOT WAKE UP**   | The DevBoard wakes up. The robot performs no action. |  
@@ -36,7 +45,6 @@ After the connection is established, the robot can process voice commands, which
 | **LIGHTS OFF**     | Turn off the LED backlight on the Ultrasonic Sensor (simulating headlights). |  
 | **PLAY MUSIC**     | The robot plays a preset melody. |  
 
-
 ## Tilt mode
 
 To activate tilt control mode, say 'Manual Control' or press the USER button. 
@@ -50,6 +58,12 @@ Tilt the DevBoard forward, backward, left, or right to control the robot's movem
 You can use voice commands 'Play Music' and 'Lights On' or 'Lights Off' in Tilt mode.
 
 To quit say 'Voice Control' or press USER button.
+
+
+
+
+
+
 
 
 

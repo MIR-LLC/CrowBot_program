@@ -39,7 +39,7 @@ After the connection is established, the robot can process voice commands, which
 
 ## Tilt mode
 
-To activate tilt control mode, say 'Start Control' or press the USER button. 
+To activate tilt control mode, say 'Manual Control' or press the USER button. 
 
 Once activated, the display on the DevBoard will update, and the robot will no longer respond to voice commands for movement.
 
@@ -49,7 +49,7 @@ Tilt the DevBoard forward, backward, left, or right to control the robot's movem
 
 You can use voice commands 'Play Music' and 'Lights On' or 'Lights Off' in Tilt mode.
 
-To quit say 'Stop Control' or press USER button.
+To quit say 'Voice Control' or press USER button.
 
 
 

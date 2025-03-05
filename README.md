@@ -6,6 +6,8 @@
 
 [How to flash the program](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)
 
+[Comands List](https://grovety.com/CrowBot/)
+
 ## How it works
 
 Once you flash our program to the CrowBot  (see [how to do it](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)), the robot can receive commands from the DevBoard via Bluetooth.  

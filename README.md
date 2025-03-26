@@ -1,32 +1,32 @@
-# Robot Control Implementation Using the CrowBot-BOLT Robot 
+# Упраление роботом the CrowBot-BOLT
 
-[Quick Start](https://grovety.com/CrowBot/)
+[Быстрый старт](https://grovety.com/CrowBot/)
 
-[File of the program](https://github.com/Grovety/CrowBot_GRC_program/blob/main/Bolt_grc_program.ino)
+[Файл программы](https://github.com/Grovety/CrowBot_GRC_program/blob/main/Bolt_grc_program.ino)
 
-[How to flash the program](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)
+[Как прошить робота](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)
 
-[Comands List](https://grovety.com/CrowBot/)
+[Список команд](https://grovety.com/CrowBot/)
 
 ## How it works
 
-Once you flash our program to the CrowBot  (see [how to do it](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)), the robot can receive commands from the DevBoard via Bluetooth.  
+После того, как вы "прошьете" CrowBot  ( [как это сделать](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)), робот станет способен принимать команды от платы по Bluetooth.  
 
-1. Turn on the robot and the DevBoard.  
-2. Enable Bluetooth on the robot by sliding the switch.  
-3. The robot will automatically connect to the DevBoard, and a connection icon will appear on the board.  
+1. Включите робота и Плату управления (например подключите к пауэрбанку или любому USB адаптеру).  
+2. Включите Bluetooth на самом роботе (переключатель с обратной сторны платы).  
+3. Робот автоматически подключится к плате, а на экрне платы появится значок блютус, это значит, что подключение установлено.  
 
 ![RC2](https://github.com/user-attachments/assets/907467d8-6e76-4b28-b7d1-531149297eba)
 
-After the connection is established, the robot can process voice commands, which are then converted into movement commands or other actions.
+Робот готов принимать и обрабатывать голосовые команды.
 
-You can use two modes to control CrowBot-BOLT:
-1. Recognizing voice commands from a predefined list. 
-2. Reading the board's tilt along the X and Y axes.
+Есть два режима управления CrowBot-BOLT:
+1. Распознавание голосовых команд (английский язык, список команд зафиксирован). 
+2. Управление наклоном платы по осям X и Y.
 
 ![RCax](https://github.com/user-attachments/assets/df23ef1b-fbf7-4044-8efd-d63a35861690)
 
-## Voice Control
+## Голосовое управление
 The board "listens" to user commands through its built-in microphones and recognizes them using a neural network. The recognized command is transmitted to CrowBOT.
 
 ### Commands

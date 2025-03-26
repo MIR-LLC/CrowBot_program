@@ -8,9 +8,9 @@
 
 [Список команд](https://grovety.com/CrowBot/)
 
-## How it works
+## Инструкция
 
-После того, как вы "прошьете" CrowBot  ( [как это сделать](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)), робот станет способен принимать команды от платы по Bluetooth.  
+После того, как вы "прошьете" CrowBot  ([как это сделать](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)), робот станет способен принимать команды от платы по Bluetooth.  
 
 1. Включите робота и Плату управления (например подключите к пауэрбанку или любому USB адаптеру).  
 2. Включите Bluetooth на самом роботе (переключатель с обратной сторны платы).  

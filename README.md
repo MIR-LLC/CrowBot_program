@@ -1,16 +1,14 @@
 # Упраление роботом the CrowBot-BOLT
 
-[Быстрый старт](https://grovety.com/CrowBot/)
+[Файл программы](https://github.com/MIR-LLC/CrowBot_program/blob/main/Bolt_grc_program.ino)
 
-[Файл программы](https://github.com/Grovety/CrowBot_GRC_program/blob/main/Bolt_grc_program.ino)
-
-[Как прошить робота](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)
+[Как прошить робота](https://github.com/MIR-LLC/CrowBot_program/blob/main/how_to_install_the_program.md)
 
 [Список команд](https://grovety.com/CrowBot/)
 
 ## Инструкция
 
-После того, как вы "прошьете" CrowBot  ([как это сделать](https://github.com/Grovety/CrowBot_GRC_program/blob/main/how_to_install_the_program.md)), робот станет способен принимать команды от платы по Bluetooth.  
+После того, как вы "прошьете" CrowBot  ([как это сделать](https://github.com/MIR-LLC/CrowBot_program/blob/main/how_to_install_the_program.md)), робот станет способен принимать команды от платы по Bluetooth.  
 
 1. Включите робота и Плату управления (например подключите к пауэрбанку или любому USB адаптеру).  
 2. Включите Bluetooth на самом роботе (переключатель с обратной сторны платы).  
@@ -28,38 +26,39 @@
 
 ## Голосовое управление
 The board "listens" to user commands through its built-in microphones and recognizes them using a neural network. The recognized command is transmitted to CrowBOT.
+Плата "слушает" команды пользователя с помощью встроенных микрофонов, распознаёт их с помощью нейросети и передаёт по Bluetooth.
 
-### Commands
-| Voice Command     | Action |
+### Список команд
+| Голосовая команда     | Действие |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **ROBOT WAKE UP**   | The DevBoard wakes up. The robot performs no action. |  
-| **ROBOT SLEEP**     | The DevBoard goes into sleep mode and stops responding to voice commands. The robot performs no action. |  
-| **MANUAL CONTROL**  | The DevBoard switches to tilt control mode. The robot enters tilt control mode and stops responding to voice movement commands. |  
-| **VOICE CONTROL**   | Tilt control mode is disabled, returning to voice control mode. |  
-| **GO RIGHT**       | Turn right. |  
-| **GO LEFT**        | Turn left. |  
-| **GO FORWARD**     | Move forward and then stop. |  
-| **GO BACK**        | Move backward and then stop. |  
-| **GO HOME**        | No action. |  
-| **SLOWER SPEED**   | No action. |  
-| **FASTER SPEED**   | No action. |  
-| **LIGHTS ON**      | Turn on the LED backlight on the Ultrasonic Sensor (simulating headlights). |  
-| **LIGHTS OFF**     | Turn off the LED backlight on the Ultrasonic Sensor (simulating headlights). |  
-| **PLAY MUSIC**     | The robot plays a preset melody. |  
+| **ROBOT WAKE UP**   | Активируется плата. Робот не выполняет никаких действий. |  
+| **ROBOT SLEEP**     | Плата переходит в спящий режим. Робот не выполняет действий. |  
+| **MANUAL CONTROL**  | Плата переходит в режим управления наклоном. Робот преходит в режим управления наклоном платы и перестаёт реагировать на голосовые команды, связанные с движением. |  
+| **VOICE CONTROL**   | Переход в режим голосового управления (и плата, и робот) |  
+| **GO RIGHT**       | Поворот направо |  
+| **GO LEFT**        | Поворот налево |  
+| **GO FORWARD**     | Движение вперед и остановка |  
+| **GO BACK**        | Движение назад и остановка |  
+| **GO HOME**        | Нет действия |  
+| **SLOWER SPEED**   | Нет действия |  
+| **FASTER SPEED**   | Нет действия |  
+| **LIGHTS ON**      | Включение "фар" (светодиодов ультразвукового сенсора) |  
+| **LIGHTS OFF**     | Выключение "фар" |  
+| **PLAY MUSIC**     | Робот играет предустановленную мелодию |  
 
-## Tilt mode
+## Управление наклоном
 
-To activate tilt control mode, say 'Manual Control' or press the USER button. 
+Для активации скажите 'Manual Control' или нажмите кнопку USER. 
 
-Once activated, the display on the DevBoard will update, and the robot will no longer respond to voice commands for movement.
+Картинка на дисплее платы изменится. Робот перестанет отвечать на голосовые команды движения.
 
-> Make sure to place the DevBoard on a flat surface before starting, as it will calibrate when entering tilt control mode. When you see a circle on two intersecting lines appear on the screen, the calibration is done, and you’re ready to start controlling the robot.
+> Во время перехода в режим держите плату максимально ровно и горизонтально, т.к. происходит калибровка её положения. 
 
-Tilt the DevBoard forward, backward, left, or right to control the robot's movement. The tilt angle determines the robot's speed.
+Наклоняя плату вперед, назад или в стороны вы заставляете робот двигаться. Скорость движения зависит от степени наклона платы. 
 
-You can use voice commands 'Play Music' and 'Lights On' or 'Lights Off' in Tilt mode.
+Вы можете продолжать использовать голосовые команды 'Play Music', 'Lights On' и 'Lights Off' в этом режиме.
 
-To quit say 'Voice Control' or press USER button.
+Чтобы вернуться в режим голосового управления скажите 'Voice Control' или нажмите кнопку USER.
 
 
 

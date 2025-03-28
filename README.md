@@ -4,7 +4,7 @@
 
 [Как прошить робота](https://github.com/MIR-LLC/CrowBot_program/blob/main/how_to_install_the_program.md)
 
-[Список команд](https://grovety.com/CrowBot/)
+[Список команд](https://github.com/MIR-LLC/CrowBot_program/blob/main/commands)
 
 ## Инструкция
 

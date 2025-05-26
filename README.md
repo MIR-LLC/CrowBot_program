@@ -1,4 +1,4 @@
-# Упраление роботом the CrowBot-BOLT
+# Управление роботом the CrowBot-BOLT
 
 [Файл программы](https://github.com/MIR-LLC/CrowBot_program/blob/main/Bolt_grc_program.ino)
 
